@@ -20,18 +20,19 @@ export default function CreditCard () {
   
     const handleClick = contextSafe(() => {
         setIsFlipped(!isFlipped)
-        gsap.to(container.current, { rotationY: isFlipped ? 0 : 180, duration: 2 });
+        gsap.to(container.current, { rotationY: isFlipped ? 0 : 180, duration: 0.5 });
     });
 
     const hideNumber = (code) => {
-        const result = [...code].map((nb,index) => {
-            if (index < [...code].length - 4){
-                return "*"
+        const parts = code.split(" ")
+        const result = parts.map((nb,index) => {
+            if (index < parts.length -1 ){
+                return "****"
             }
             return nb
         })
 
-        return result.join("")
+        return result.join(" ")
     }
 
     const codeCard = hideNumber("1843 9236 0046 8346")

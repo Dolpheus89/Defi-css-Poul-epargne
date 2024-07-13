@@ -35,7 +35,7 @@
             }
 
             p {
-                font-size: 0.7rem;
+                font-size: 0.9rem;
                 line-height: 0.8rem;
                 margin-left: 5px;
             }
@@ -63,7 +63,7 @@
         .content {
             text-align: end;
             width: 60%;
-            font-size: 6px;
+            font-size: 8px;
             display: flex;
             align-items: end;
             line-height: 1rem;
@@ -78,13 +78,13 @@
                 gap: 5px;
 
                 .date {
-                    font-size: 10px;
+                    font-size: 12px;
                     margin-right: 1rem;
                 }
             }
 
             .name {
-                font-size: 0.7rem;
+                font-size: 0.8rem;
             }
 
         }
