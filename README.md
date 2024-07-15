@@ -40,3 +40,13 @@ Les poulets de PoulEpargne sont très soucieux de leur sécurité. Ajoutez une f
 ### 🐣 Bonus 2 : Carte à Deux Faces
 
 Pour une expérience encore plus interactive, reliez les deux faces de la carte de crédit et permettez à l'utilisateur de retourner la carte au clic. Vos compétences en React vont vraiment briller avec cette fonctionnalité !
+
+
+## Remerciements à l'Auteur des Images
+
+Je tiens à remercier chaleureusement l'auteur des images utilisées dans ce projet.
+
+- Les images sont fournies par [cookie_pom_illustration](https://www.instagram.com/cookie_pom_Illustration/).
+- Ces images sont utilisées avec la permission de l'auteur et ne sont pas libres de droit.
+
+Merci à l'auteur pour sa générosité et son autorisation d'utilisation de ses magnifiques images.
